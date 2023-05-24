@@ -1,0 +1,1030 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 634466600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage \u0026 Login to the application",
+            "match": {
+              "location": "UserStep.iAmOnHomePageLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5422849400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "I should login successfully",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-different-login-functions.;i-should-login-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 792334900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1268640000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see Welcome message",
+            "match": {
+              "location": "LoginStep.iSeeWelcomeMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@sanity"
+          },
+          {
+            "line": 6,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 508738700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage \u0026 Login to the application",
+            "match": {
+              "location": "UserStep.iAmOnHomePageLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2851968500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "I should see Logo",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-different-login-functions.;i-should-see-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 706421000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1160271000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I see the Orange HRM Logo",
+            "match": {
+              "location": "LoginStep.iSeeTheOrangeHRMLogo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          },
+          {
+            "line": 10,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 516666300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage \u0026 Login to the application",
+            "match": {
+              "location": "UserStep.iAmOnHomePageLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2821302400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "I should log out successfully",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-different-login-functions.;i-should-log-out-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 744935700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1698161600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on user profile logo",
+            "match": {
+              "location": "LoginStep.iClickOnUserProfileLogo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1184448500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I mouse hover and click on logout",
+            "match": {
+              "location": "LoginStep.iMouseHoverAndClickOnLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244571500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am logged out and see text Login Panel",
+            "match": {
+              "location": "LoginStep.iAmLoggedOutAndSeeTextLoginPanel()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to verify different login functions.",
+    "description": "",
+    "id": "as-a-user-i-want-to-verify-different-login-functions.",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 504594800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage \u0026 Login to the application",
+            "match": {
+              "location": "UserStep.iAmOnHomePageLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2763812900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Admin should be able to add users",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-admin-can-execute-different-actions-on-users.;admin-should-be-able-to-add-users",
+        "after": [
+          {
+            "result": {
+              "duration": 943314600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2005708400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click On Admin Tab",
+            "match": {
+              "location": "UserStep.iClickOnAdminTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 366968800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Verify System Users Text",
+            "match": {
+              "location": "UserStep.iVerifySystemUsersText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 481801600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click On Add button",
+            "match": {
+              "location": "UserStep.iClickOnAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226399200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Verify Add User Text",
+            "match": {
+              "location": "UserStep.iVerifyAddUserText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 211200,
+              "error_message": "cucumber.runtime.CucumberException: Arity mismatch: Step Definition \u0027com.orangehrmlive.demo.steps.UserStep.iSelectUserRoleAdmin(String) in file:/C:/Users/KISSAN/IdeaProjects/orange-hrm-week-16/target/test-classes/\u0027 with pattern [^I Select User Role Admin$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. \nStep: When I Select User Role Admin\r\n\tat cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)\r\n\tat cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:160)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I Select User Role Admin",
+            "match": {
+              "location": "UserStep.iSelectUserRoleAdmin(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter Employee Name Ananya Dash",
+            "match": {
+              "location": "UserStep.iEnterEmployeeNameAnanyaDash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I enter User name",
+            "match": {
+              "location": "UserStep.iEnterUserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I Select status Disable",
+            "match": {
+              "location": "UserStep.iSelectStatusDisable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I enter password",
+            "match": {
+              "location": "UserStep.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I enter Confirm Password",
+            "match": {
+              "location": "UserStep.iEnterConfirmPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I click On Save Button",
+            "match": {
+              "location": "UserStep.iClickOnSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I verify message Successfully Saved",
+            "match": {
+              "location": "UserStep.iVerifyMessageSuccessfullySaved()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@sanity"
+          },
+          {
+            "line": 6,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1249532200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage \u0026 Login to the application",
+            "match": {
+              "location": "UserStep.iAmOnHomePageLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2538283800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Admin should be able to search the user created and verify it.",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-admin-can-execute-different-actions-on-users.;admin-should-be-able-to-search-the-user-created-and-verify-it.",
+        "after": [
+          {
+            "result": {
+              "duration": 898739700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1176445100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click On Admin Tab",
+            "match": {
+              "location": "UserStep.iClickOnAdminTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 580814600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Verify System Users Text",
+            "match": {
+              "location": "UserStep.iVerifySystemUsersText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 164816200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I Enter username",
+            "match": {
+              "location": "UserStep.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1664597200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Select user role",
+            "match": {
+              "location": "UserStep.iSelectUserRole()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256700,
+              "error_message": "cucumber.runtime.CucumberException: Arity mismatch: Step Definition \u0027com.orangehrmlive.demo.steps.UserStep.iSelectStatus(String) in file:/C:/Users/KISSAN/IdeaProjects/orange-hrm-week-16/target/test-classes/\u0027 with pattern [^I select status$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. \nStep: And I select status\r\n\tat cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)\r\n\tat cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:160)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "I select status",
+            "match": {
+              "location": "UserStep.iSelectStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I click on search",
+            "match": {
+              "location": "UserStep.iClickOnSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I should see the user in the list",
+            "match": {
+              "location": "UserStep.iShouldSeeTheUserInTheList()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@smoke"
+          },
+          {
+            "line": 21,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 597976200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage \u0026 Login to the application",
+            "match": {
+              "location": "UserStep.iAmOnHomePageLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3074287600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Admin should be able to delete the user record.",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-admin-can-execute-different-actions-on-users.;admin-should-be-able-to-delete-the-user-record.",
+        "after": [
+          {
+            "result": {
+              "duration": 1020924600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2474873400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click On Admin Tab",
+            "match": {
+              "location": "UserStep.iClickOnAdminTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311690700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Verify System Users Text",
+            "match": {
+              "location": "UserStep.iVerifySystemUsersText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 437592300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click On Add button",
+            "match": {
+              "location": "UserStep.iClickOnAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264162500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I Verify Add User Text",
+            "match": {
+              "location": "UserStep.iVerifyAddUserText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 215400,
+              "error_message": "cucumber.runtime.CucumberException: Arity mismatch: Step Definition \u0027com.orangehrmlive.demo.steps.UserStep.iSelectUserRoleAdmin(String) in file:/C:/Users/KISSAN/IdeaProjects/orange-hrm-week-16/target/test-classes/\u0027 with pattern [^I Select User Role Admin$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. \nStep: When I Select User Role Admin\r\n\tat cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)\r\n\tat cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:160)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "status": "failed"
+            },
+            "line": 38,
+            "name": "I Select User Role Admin",
+            "match": {
+              "location": "UserStep.iSelectUserRoleAdmin(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I enter Employee Name Ananya Dash",
+            "match": {
+              "location": "UserStep.iEnterEmployeeNameAnanyaDash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I enter User name",
+            "match": {
+              "location": "UserStep.iEnterUserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I select status enable",
+            "match": {
+              "location": "UserStep.iSelectStatusEnable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I enter password",
+            "match": {
+              "location": "UserStep.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I enter Confirm Password",
+            "match": {
+              "location": "UserStep.iEnterConfirmPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I click On Save Button",
+            "match": {
+              "location": "UserStep.iClickOnSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "I search for user",
+            "match": {
+              "location": "UserStep.iSearchForUser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "I select user role",
+            "match": {
+              "location": "UserStep.iSelectUserRole2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I select the status",
+            "match": {
+              "location": "UserStep.iSelectTheStatus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I click on Search",
+            "match": {
+              "location": "UserStep.iClickOnSearch2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I click on check box",
+            "match": {
+              "location": "UserStep.iClickOnCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I click delete",
+            "match": {
+              "location": "UserStep.iClickDelete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I click ok on pop up",
+            "match": {
+              "location": "UserStep.iClickOkOnPopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "I should see message Successfully Deleted",
+            "match": {
+              "location": "UserStep.iShouldSeeMessageSuccessfullyDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 533638600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage \u0026 Login to the application",
+            "match": {
+              "location": "UserStep.iAmOnHomePageLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2855585900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "I want to search for deleted record to ensure it is not found.",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-admin-can-execute-different-actions-on-users.;i-want-to-search-for-deleted-record-to-ensure-it-is-not-found.",
+        "after": [
+          {
+            "result": {
+              "duration": 929251700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2171278900,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click On Admin Tab",
+            "match": {
+              "location": "UserStep.iClickOnAdminTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 396027600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I Verify System Users Text",
+            "match": {
+              "location": "UserStep.iVerifySystemUsersText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142519200,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I search for user",
+            "match": {
+              "location": "UserStep.iSearchForUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1706779600,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I select user role",
+            "match": {
+              "location": "UserStep.iSelectUserRole2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304700,
+              "error_message": "cucumber.runtime.CucumberException: Arity mismatch: Step Definition \u0027com.orangehrmlive.demo.steps.UserStep.iSelectItsStatus(String) in file:/C:/Users/KISSAN/IdeaProjects/orange-hrm-week-16/target/test-classes/\u0027 with pattern [^I select its status$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. \nStep: And I select its status\r\n\tat cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)\r\n\tat cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:160)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "status": "failed"
+            },
+            "line": 60,
+            "name": "I select its status",
+            "match": {
+              "location": "UserStep.iSelectItsStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click search",
+            "match": {
+              "location": "UserStep.iClickSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "I see message No Record Found",
+            "match": {
+              "location": "UserStep.iSeeMessageNoRecordFound()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 54,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to verify admin can execute different actions on users.",
+    "description": "",
+    "id": "as-a-user-i-want-to-verify-admin-can-execute-different-actions-on-users.",
+    "keyword": "Feature",
+    "uri": "User.feature"
+  }
+]
